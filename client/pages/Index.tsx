@@ -435,7 +435,13 @@ export default function Index() {
       <footer className="relative py-12 px-6 bg-dark-surface border-t border-gray-800">
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex justify-center items-center mb-6">
-            <span className="text-3xl mr-4">🦖</span>
+            <div className="w-12 h-12 mr-4 rounded-lg overflow-hidden border border-tech-blue/30">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fef3faeff1b9f473b96a37231f864c2da%2Fbf54577ee39a4579b82b3812238b21ed?format=webp&width=800"
+                alt="Bittensaur_Rex"
+                className="w-full h-full object-cover"
+              />
+            </div>
             <span className="text-xl font-bold text-tech-blue">
               BITTENSAUR_REX
             </span>
