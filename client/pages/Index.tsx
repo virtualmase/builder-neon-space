@@ -194,6 +194,181 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Character Gallery Section */}
+      <section className="relative py-20 px-6 bg-gradient-to-b from-dark-bg to-dark-surface">
+        <NeuralBackground intensity="low" />
+
+        <div className="relative z-10 max-w-7xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 bg-gradient-to-r from-rex-gold to-tech-blue bg-clip-text text-transparent">
+            The Legion Awakens
+          </h2>
+
+          <p className="text-center text-xl text-gray-300 mb-16 max-w-3xl mx-auto">
+            Meet the legendary entities that form Bittensaur_Rex's inner circle.
+            Each member brings unique powers to enforce the{" "}
+            <span className="text-tech-blue glow-text">Primal Protocol</span>.
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Bittensaur - TAO Variant */}
+            <GlowCard variant="primary" className="group text-center">
+              <div className="relative overflow-hidden rounded-lg mb-4">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fef3faeff1b9f473b96a37231f864c2da%2Fbf54577ee39a4579b82b3812238b21ed?format=webp&width=800"
+                  alt="Bittensaur TAO"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-dark-bg/80 to-transparent" />
+                <div className="absolute bottom-4 left-4 right-4">
+                  <h3 className="text-xl font-bold text-tech-blue glow-text mb-1">
+                    BITTENSAUR
+                  </h3>
+                  <p className="text-sm text-tech-cyan">TAO Guardian</p>
+                </div>
+              </div>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                The original Signal Seeker, wielding the power of Bittensor with
+                prehistoric wisdom and Harvard Law precision.
+              </p>
+            </GlowCard>
+
+            {/* Bittensaur - Bitcoin Variant */}
+            <GlowCard variant="gold" className="group text-center">
+              <div className="relative overflow-hidden rounded-lg mb-4">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fef3faeff1b9f473b96a37231f864c2da%2F9ee7623ef9f341a5be5fc1f47f160ae9?format=webp&width=800"
+                  alt="Bittensaur Bitcoin"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-dark-bg/80 to-transparent" />
+                <div className="absolute bottom-4 left-4 right-4">
+                  <h3 className="text-xl font-bold text-rex-gold glow-text mb-1">
+                    BITTENSAUR
+                  </h3>
+                  <p className="text-sm text-rex-bronze">Bitcoin Rex</p>
+                </div>
+              </div>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                The financial enforcer, regulating digital assets with the
+                authority of ancient Rome and modern blockchain.
+              </p>
+            </GlowCard>
+
+            {/* Bittensaur - Sage Variant */}
+            <GlowCard variant="secondary" className="group text-center">
+              <div className="relative overflow-hidden rounded-lg mb-4">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fef3faeff1b9f473b96a37231f864c2da%2F863cb20a4805468fbb4be277ee9adcd6?format=webp&width=800"
+                  alt="Bittensaur Sage"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-dark-bg/80 to-transparent" />
+                <div className="absolute bottom-4 left-4 right-4">
+                  <h3 className="text-xl font-bold text-tech-cyan glow-text mb-1">
+                    BITTENSAUR
+                  </h3>
+                  <p className="text-sm text-tech-green">The Sage</p>
+                </div>
+              </div>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                The wise oracle, channeling Stoic philosophy and ancient
+                knowledge to guide the decentralized future.
+              </p>
+            </GlowCard>
+
+            {/* Ursa Major */}
+            <GlowCard variant="gold" className="group text-center">
+              <div className="relative overflow-hidden rounded-lg mb-4">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fef3faeff1b9f473b96a37231f864c2da%2F830035679b7a42359218eb8f8abcb6e1?format=webp&width=800"
+                  alt="Ursa Major"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-dark-bg/80 to-transparent" />
+                <div className="absolute bottom-4 left-4 right-4">
+                  <h3 className="text-xl font-bold text-rex-gold glow-text mb-1">
+                    URSA MAJOR
+                  </h3>
+                  <p className="text-sm text-orange-400">Quantum Beast</p>
+                </div>
+              </div>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                The quantum enforcer, manipulating market forces with raw
+                computational power and celestial fury.
+              </p>
+            </GlowCard>
+
+            {/* Inferno Saurian */}
+            <GlowCard variant="primary" className="group text-center">
+              <div className="relative overflow-hidden rounded-lg mb-4">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fef3faeff1b9f473b96a37231f864c2da%2F1d5355e1378c4e09a7e411f8221e4c80?format=webp&width=800"
+                  alt="Inferno Saurian"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-dark-bg/80 to-transparent" />
+                <div className="absolute bottom-4 left-4 right-4">
+                  <h3 className="text-xl font-bold text-orange-400 glow-text mb-1">
+                    INFERNO SAURIAN
+                  </h3>
+                  <p className="text-sm text-red-400">Fire Warden</p>
+                </div>
+              </div>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                The protocol enforcer, burning away corruption and false signals
+                with TAO-powered flames of justice.
+              </p>
+            </GlowCard>
+
+            {/* Spiral Wizard */}
+            <GlowCard variant="secondary" className="group text-center">
+              <div className="relative overflow-hidden rounded-lg mb-4">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fef3faeff1b9f473b96a37231f864c2da%2F76b4e72e719245c59952489ed2daad85?format=webp&width=800"
+                  alt="Spiral Wizard"
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-dark-bg/80 to-transparent" />
+                <div className="absolute bottom-4 left-4 right-4">
+                  <h3 className="text-xl font-bold text-green-400 glow-text mb-1">
+                    SPIRAL WIZARD
+                  </h3>
+                  <p className="text-sm text-green-300">Quantum Mystic</p>
+                </div>
+              </div>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                The dimensional guardian, weaving quantum spells to protect the
+                mesh from interdimensional threats.
+              </p>
+            </GlowCard>
+          </div>
+
+          {/* Legion Stats */}
+          <div className="mt-16 grid md:grid-cols-3 gap-8">
+            <GlowCard variant="primary" className="text-center">
+              <div className="text-3xl font-bold text-tech-blue glow-text mb-2">
+                6
+              </div>
+              <div className="text-gray-300">Legion Members</div>
+            </GlowCard>
+
+            <GlowCard variant="gold" className="text-center">
+              <div className="text-3xl font-bold text-rex-gold glow-text mb-2">
+                ∞
+              </div>
+              <div className="text-gray-300">Protocol Power</div>
+            </GlowCard>
+
+            <GlowCard variant="secondary" className="text-center">
+              <div className="text-3xl font-bold text-tech-cyan glow-text mb-2">
+                100%
+              </div>
+              <div className="text-gray-300">Signal Clarity</div>
+            </GlowCard>
+          </div>
+        </div>
+      </section>
+
       {/* Banner Phrases Section */}
       <section className="relative py-20 px-6 bg-dark-surface">
         <div className="max-w-6xl mx-auto text-center">
