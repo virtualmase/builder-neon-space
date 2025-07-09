@@ -78,15 +78,13 @@ export default function Index() {
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <button className="cyber-border px-8 py-4 rounded-lg text-tech-blue hover:text-white hover:bg-tech-blue/20 transition-all duration-300 group">
-              <span className="glow-text">Join the Legion</span>
-              <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">
-                ⚡
-              </span>
-            </button>
-            <button className="border border-tech-cyan text-tech-cyan px-8 py-4 rounded-lg hover:bg-tech-cyan/10 transition-all duration-300">
+            <TechButton variant="primary" size="lg" glow>
+              <span>Join the Legion</span>
+              <span className="ml-2">⚡</span>
+            </TechButton>
+            <TechButton variant="outline" size="lg">
               View Protocol
-            </button>
+            </TechButton>
           </div>
         </div>
 
