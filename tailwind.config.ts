@@ -14,6 +14,18 @@ export default {
     },
     extend: {
       colors: {
+        // Dark Tech Theme Colors
+        "dark-bg": "#0b0b0b",
+        "dark-surface": "#171717",
+        "dark-elevated": "#1f1f1f",
+        "tech-blue": "#6ec2ff",
+        "tech-blue-dark": "#4a9eff",
+        "tech-cyan": "#00d4ff",
+        "tech-green": "#00ff88",
+        "rex-gold": "#ffd700",
+        "rex-bronze": "#cd7f32",
+
+        // Legacy shadcn colors for compatibility
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -80,10 +92,44 @@ export default {
             height: "0",
           },
         },
+        "pulse-glow": {
+          "0%": {
+            boxShadow: "0 0 5px #6ec2ff, 0 0 10px #6ec2ff, 0 0 15px #6ec2ff",
+          },
+          "100%": {
+            boxShadow: "0 0 10px #6ec2ff, 0 0 20px #6ec2ff, 0 0 30px #6ec2ff",
+          },
+        },
+        "data-flow": {
+          "0%": {
+            transform: "translateX(-100%)",
+            opacity: "0",
+          },
+          "50%": {
+            opacity: "1",
+          },
+          "100%": {
+            transform: "translateX(100%)",
+            opacity: "0",
+          },
+        },
+        "neural-pulse": {
+          "0%, 100%": {
+            opacity: "0.4",
+            transform: "scale(1)",
+          },
+          "50%": {
+            opacity: "1",
+            transform: "scale(1.05)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "pulse-glow": "pulse-glow 2s ease-in-out infinite alternate",
+        "data-flow": "data-flow 3s linear infinite",
+        "neural-pulse": "neural-pulse 1.5s ease-in-out infinite",
       },
     },
   },
