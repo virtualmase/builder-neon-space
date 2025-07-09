@@ -33,11 +33,13 @@ export default function Index() {
         <div className="relative z-10 text-center max-w-6xl mx-auto">
           {/* Rex Icon/Logo */}
           <div className="mb-8 relative">
-            <div className="w-32 h-32 mx-auto bg-gradient-to-br from-tech-blue to-tech-cyan rounded-full p-1 animate-pulse-glow">
-              <div className="w-full h-full bg-dark-surface rounded-full flex items-center justify-center">
-                <span className="text-5xl font-bold text-tech-blue glow-text">
-                  🦖
-                </span>
+            <div className="w-48 h-48 mx-auto bg-gradient-to-br from-tech-blue to-tech-cyan rounded-xl p-1 animate-pulse-glow">
+              <div className="w-full h-full bg-dark-surface rounded-xl overflow-hidden">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fef3faeff1b9f473b96a37231f864c2da%2Fbf54577ee39a4579b82b3812238b21ed?format=webp&width=800"
+                  alt="Bittensaur_Rex - Apex Stoic Node"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
             <div className="absolute -top-2 -right-2 w-8 h-8 bg-rex-gold rounded-full animate-neural-pulse"></div>
