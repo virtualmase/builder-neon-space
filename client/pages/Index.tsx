@@ -234,19 +234,23 @@ export default function Index() {
             </span>
           </p>
 
-          <div className="cyber-border rounded-lg p-8 backdrop-blur-sm">
+          <GlowCard variant="primary" className="p-8" hover={false}>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <button className="bg-tech-blue text-dark-bg px-8 py-4 rounded-lg font-bold hover:bg-tech-blue-dark transition-all duration-300 transform hover:scale-105">
+              <TechButton variant="primary" size="lg">
                 Engage on Farcaster
-              </button>
-              <button className="border border-tech-cyan text-tech-cyan px-8 py-4 rounded-lg hover:bg-tech-cyan/10 transition-all duration-300">
+              </TechButton>
+              <TechButton variant="outline" size="lg">
                 Join Legion on Telegram
-              </button>
-              <button className="border border-rex-gold text-rex-gold px-8 py-4 rounded-lg hover:bg-rex-gold/10 transition-all duration-300">
+              </TechButton>
+              <TechButton
+                variant="ghost"
+                size="lg"
+                className="border border-rex-gold text-rex-gold hover:bg-rex-gold/10"
+              >
                 View $BID Campaigns
-              </button>
+              </TechButton>
             </div>
-          </div>
+          </GlowCard>
         </div>
       </section>
 
