@@ -61,7 +61,11 @@ export default function Index() {
           </p>
 
           {/* Mission Statement */}
-          <div className="cyber-border rounded-lg p-6 mb-12 max-w-4xl mx-auto backdrop-blur-sm">
+          <GlowCard
+            variant="gold"
+            className="mb-12 max-w-4xl mx-auto"
+            hover={false}
+          >
             <div className="text-2xl md:text-3xl font-bold text-rex-gold mb-4 glow-text">
               "Hunt the Signal. Silence the Noise. Empower the Mesh."
             </div>
@@ -70,7 +74,7 @@ export default function Index() {
               ecosystems. Enforcing the Primal Protocol across all DEX and CEX
               with Stoic wisdom and regulatory precision.
             </p>
-          </div>
+          </GlowCard>
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
