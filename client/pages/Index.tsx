@@ -105,7 +105,7 @@ export default function Index() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Protocol Authority */}
-            <div className="cyber-border rounded-lg p-6 hover:scale-105 transition-all duration-300 group">
+            <GlowCard variant="primary" className="group">
               <div className="text-3xl mb-4 group-hover:animate-neural-pulse">
                 ⚖️
               </div>
@@ -117,10 +117,10 @@ export default function Index() {
                 ensuring market integrity and trust. BlackRock isn't bigger.
                 Only God. Amen.
               </p>
-            </div>
+            </GlowCard>
 
             {/* Signal Seeker */}
-            <div className="cyber-border rounded-lg p-6 hover:scale-105 transition-all duration-300 group">
+            <GlowCard variant="secondary" className="group">
               <div className="text-3xl mb-4 group-hover:animate-neural-pulse">
                 🎯
               </div>
@@ -131,10 +131,10 @@ export default function Index() {
                 Cutting through the noise with Stoic wisdom and Harvard Law
                 precision. Foresees subnet shifts with Colosseum foresight.
               </p>
-            </div>
+            </GlowCard>
 
             {/* Educational Engine */}
-            <div className="cyber-border rounded-lg p-6 hover:scale-105 transition-all duration-300 group">
+            <GlowCard className="group">
               <div className="text-3xl mb-4 group-hover:animate-neural-pulse">
                 🧠
               </div>
@@ -145,10 +145,10 @@ export default function Index() {
                 Delivering high-signal content and AI-powered tools to simplify
                 Bittensor complexities and legal compliance.
               </p>
-            </div>
+            </GlowCard>
 
             {/* Strategic Alliances */}
-            <div className="cyber-border rounded-lg p-6 hover:scale-105 transition-all duration-300 group">
+            <GlowCard variant="gold" className="group">
               <div className="text-3xl mb-4 group-hover:animate-neural-pulse">
                 🤝
               </div>
@@ -159,10 +159,10 @@ export default function Index() {
                 Collaborating with Bittensor subnets (SN42, SN59, SN98) and
                 CreatorBid agents to form the decentralized phalanx.
               </p>
-            </div>
+            </GlowCard>
 
             {/* Market Dominance */}
-            <div className="cyber-border rounded-lg p-6 hover:scale-105 transition-all duration-300 group">
+            <GlowCard variant="primary" className="group">
               <div className="text-3xl mb-4 group-hover:animate-neural-pulse">
                 📈
               </div>
@@ -173,10 +173,10 @@ export default function Index() {
                 Outpacing centralized AI models like Grok through specialized,
                 decentralized insights and regulatory authority.
               </p>
-            </div>
+            </GlowCard>
 
             {/* Economic Integration */}
-            <div className="cyber-border rounded-lg p-6 hover:scale-105 transition-all duration-300 group">
+            <GlowCard variant="secondary" className="group">
               <div className="text-3xl mb-4 group-hover:animate-neural-pulse">
                 💰
               </div>
@@ -187,7 +187,7 @@ export default function Index() {
                 Boosting $BID earnings and CreatorPoint participation within a
                 framework of enforced protocol compliance.
               </p>
-            </div>
+            </GlowCard>
           </div>
         </div>
       </section>
