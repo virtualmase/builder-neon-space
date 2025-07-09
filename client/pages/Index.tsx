@@ -1,5 +1,8 @@
 import { DemoResponse } from "@shared/api";
 import { useEffect, useState } from "react";
+import { NeuralBackground } from "../components/NeuralBackground";
+import { GlowCard } from "../components/GlowCard";
+import { TechButton } from "../components/TechButton";
 
 export default function Index() {
   const [exampleFromServer, setExampleFromServer] = useState("");
