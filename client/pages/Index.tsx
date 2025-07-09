@@ -25,21 +25,11 @@ export default function Index() {
 
   return (
     <div className="min-h-screen bg-dark-bg text-white overflow-hidden">
-      {/* Neural Grid Background */}
-      <div className="fixed inset-0 neural-grid opacity-30" />
+      {/* Neural Background */}
+      <NeuralBackground intensity="high" className="fixed inset-0" />
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center px-6">
-        {/* Animated Background Elements */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-20 left-20 w-96 h-96 bg-tech-blue opacity-10 rounded-full blur-3xl animate-pulse-glow" />
-          <div
-            className="absolute bottom-20 right-20 w-80 h-80 bg-tech-cyan opacity-10 rounded-full blur-3xl animate-pulse-glow"
-            style={{ animationDelay: "1s" }}
-          />
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-rex-gold opacity-5 rounded-full blur-3xl animate-neural-pulse" />
-        </div>
-
         <div className="relative z-10 text-center max-w-6xl mx-auto">
           {/* Rex Icon/Logo */}
           <div className="mb-8 relative">
