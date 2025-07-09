@@ -208,14 +208,11 @@ export default function Index() {
               "Regulate. Enforce. Evolve.",
               "Roman-born, Chain-forged.",
             ].map((phrase, index) => (
-              <div
-                key={index}
-                className="cyber-border rounded-lg p-4 hover:scale-105 transition-all duration-300"
-              >
+              <GlowCard key={index} variant="gold" className="text-center p-4">
                 <span className="text-lg font-bold text-rex-gold glow-text">
                   {phrase}
                 </span>
-              </div>
+              </GlowCard>
             ))}
           </div>
         </div>
